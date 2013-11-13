@@ -1,5 +1,8 @@
 Revision history for POE-Component-WWW-WebDevout-BrowserSupportInfo
 
-0.01    Date/time
+0.02    2013-11-11
+        - Minor fixes to comply with specs and Kwalitee game
+
+0.01    2008-02-18
         First version, released on an unsuspecting world.
 

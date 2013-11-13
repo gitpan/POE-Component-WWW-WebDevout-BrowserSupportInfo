@@ -17,7 +17,9 @@ my $builder = Module::Build->new(
         'POE::Filter::Reference'             => 1.2187,
         'POE::Filter::Line'                  => 1.1920,
         'WWW::WebDevout::BrowserSupportInfo' => 0.01,
+        'perl' => '5.006',
     },
+    configure_requires => { 'Module::Build' => 0 },
     add_to_cleanup      => [ 'POE-Component-WWW-WebDevout-BrowserSupportInfo-*' ],
     create_makefile_pl => 'traditional',
 );

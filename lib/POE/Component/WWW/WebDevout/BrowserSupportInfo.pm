@@ -3,7 +3,7 @@ package POE::Component::WWW::WebDevout::BrowserSupportInfo;
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp;
 use POE qw(Wheel::Run Filter::Reference Filter::Line);
@@ -233,6 +233,8 @@ sub _retrieve_browser_info {
 
 1;
 __END__
+
+=encoding utf8
 
 =head1 NAME
 
